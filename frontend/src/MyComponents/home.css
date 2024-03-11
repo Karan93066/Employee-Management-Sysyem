@@ -1,0 +1,83 @@
+.employee-table {
+    font-family: Arial, sans-serif;
+    margin: 3% 10%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 0 4px;
+  }
+  
+  .pagination button.active {
+    background-color: #0056b3;
+  }
+  
+  .pagination button:hover:not(.active) {
+    background-color: #0056b3;
+  }
+ .btns{
+  display: flex;
+  gap: 30px;
+ }
+ .btn_delete{
+  background-color: rgb(205, 66, 66);
+ }
+ .btn_delete.active {
+  background-color: red !important;
+}
+.btn_delete:hover:not(.active) {
+  background-color: red;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fcfcfc;
+}
+
+.nav_container {
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #fef7e5;
+  position: relative;
+}
+.button_div{
+  margin-bottom: 20px;
+}
